@@ -1,6 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Button } from '../src';
+import React from "react";
+import ReactDOM from "react-dom";
+import { Button } from "../src";
+import "../src/styles.css";
 
 const App = () => (
   <div>
@@ -9,4 +10,4 @@ const App = () => (
   </div>
 );
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById("app"));
